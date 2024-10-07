@@ -20,7 +20,7 @@ class Account(object):
         return self.Balance
 
     def transfer(self, target, amount):
-	if(self.Balance - amount < -self.CreditLine):
+        if(self.Balance - amount < -self.CreditLine):
             # coverage insufficient
             return False
         else:
@@ -34,8 +34,8 @@ class Account(object):
 
 obj1 =Account("x1",345267,10009.78)
 obj1.balance()
-obj2 = Account.Account("x2",345289,3800.03)
-obj2.balance()
-obj1.transfer(obj2,1000)
-obj1.balance()
-obj2.balance()
+# obj2 = Account.Account("x2",345289,3800.03)
+# obj2.balance()
+# obj1.transfer(obj2,1000)
+# obj1.balance()
+# obj2.balance()
