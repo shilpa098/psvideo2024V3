@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-#creating administrator functionalities
-=======
-#creating administrator functionalities
+
 
 let data=("admin1","admin2");
 
@@ -14,13 +11,3 @@ for i in range(1,10):
     if (genData>100):
       print(genData,end="\t");
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
->>>>>>> 3d7049b (control statements added)
